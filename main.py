@@ -28,7 +28,6 @@ bot = Client(
     api_id=API_ID,
     api_hash=API_HASH,
     bot_token=BOT_TOKEN
-)
 
 async def download_m3u8(url, output_file, key_url=None):
     """Enhanced m3u8 downloader with key handling"""
